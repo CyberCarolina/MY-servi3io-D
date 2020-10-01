@@ -1,0 +1,103 @@
+
+*{
+	margin: 0px;
+}
+
+body {
+	background: #63AE48;
+	color: white;
+	font-family: 'Indie Flower', cursive;
+}
+
+.header{
+	color: #1C727E;
+	background:  #19400B;
+color: yellow;
+display: flex;
+justify-content: space-between; 
+height: 100px;
+}
+.header a{
+	color: white;
+	text-decoration: none;
+	display: flex;
+	height: inherit;
+	padding: 10px;
+    align-items: center;
+}
+ol{
+	list-style: none;
+	display: flex;
+	height: inherit;
+	text-align: right;
+}
+.principal-buton{
+	width: 250px;
+	height: 40px;
+	background-color: #292F39;
+	border-radius: 24px;
+	border: none;
+	cursor: pointer;
+	margin-top: 30px;
+	color: #5dd3e2;
+}
+.principal{
+	background: #292F39;
+	background-image: url('img/Alejandro.png') ;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 100px;
+	text-align: center;
+   
+}
+.principal img{
+	width: 100px;
+}
+.informacion{
+	background: #292F39;
+	text-align: center;
+	padding: 50px;
+}
+.informacion h2{
+	color: #292F39;
+}
+.xd{
+	background : #292F39;
+	padding: 100x 100px;
+}
+
+.contenedor1{
+	display: flex;
+	background: #4EB37D;
+	padding: 20px;
+	justify-content: space-around;
+}
+
+.col3-contenedor1{
+	width: 400px;
+}
+.col2-contenedor1{
+	width: 200px;
+}
+.col2-contenedor1{
+	width: 300px;
+
+}
+
+
+.contenedor2{
+	display: flex;
+	text-align: center;
+	background: #292F39;
+	
+}
+
+
+
+.menu{
+ display: flex;
+}
+.icono img{
+       width: 200px;
+}
+
